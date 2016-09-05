@@ -17,7 +17,7 @@ JavaScript：综合案例--表单验证
 　　　　
 　　　　.佣金：难找小数编写，小数位数最多2位，按照正则进行验证。
 　　　　
-
+　　　　
 具体步骤：
 
 　　第一：定义表单 
@@ -25,6 +25,7 @@ JavaScript：综合案例--表单验证
 　　　　.将form.css文件拷贝到css目录之中；
 　　　　
 　　　　.将emp_add.html页面之中编写表单，以及导入form.css文件的引用；
+　　　　
 　　　　
 第二：页面动态效果
 
@@ -37,7 +38,7 @@ JavaScript：综合案例--表单验证
 　　　　.在emp_add.html文件中导入uitl.js与emp_add.js文件;
 　　　　
 　　　　.动态设置显示的效果，增加mouseover和mouseout事件，在表格行元素中增加。
-
+　　　　
 　　2、考虑到代码的可重用性问题，所以建议将具体的验证交给util.js来完成。
 　　
 　　　　.建立validateEmpty()、validateRegex()、validateNumber()、validateDate()；
@@ -45,8 +46,9 @@ JavaScript：综合案例--表单验证
 　　　　.建立完一个函数之后一定要对这个函数的可用性进行测试；
 　　　　
 　　　　.在emp_add.js文件里面动态绑定事件，使用的还是“onblur”事件;
-
+　　　　
 　　3、分别绑定完事件处理之后，下面针对于表单进行事件的处理。
+　　
 
 第三：使用日期选择组件
 
@@ -58,12 +60,12 @@ JavaScript：综合案例--表单验证
 效果图如下：
 
 默认时：
-
+![image](https:/github.com/xiayuanquan/Form_Authentication/blob/master/screenshots/10.png)
 信息全为空时，验证不通过：
-
+![image](https:/github.com/xiayuanquan/Form_Authentication/blob/master/screenshots/11.png)
 信息任意一个为空时，验证不通过：
-
+![image](https:/github.com/xiayuanquan/Form_Authentication/blob/master/screenshots/14.png)
 信息都不为空且符合格式时，验证全通过：
-
+![image](https:/github.com/xiayuanquan/Form_Authentication/blob/master/screenshots/13.png)
 选取日期时：
-
+![image](https:/github.com/xiayuanquan/Form_Authentication/blob/master/screenshots/12.png)
