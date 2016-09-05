@@ -42,7 +42,7 @@ JavaScript：综合案例--表单验证
 
     <4>动态设置显示的效果，增加mouseover和mouseout事件，在表格行元素中增加。
 
-　　　　
+ 
  2.考虑到代码的可重用性问题，所以建议将具体的验证交给util.js来完成。
 
     <1>建立validateEmpty()、validateRegex()、validateNumber()、validateDate()；
@@ -51,8 +51,8 @@ JavaScript：综合案例--表单验证
 
     <3>在emp_add.js文件里面动态绑定事件，使用的还是“onblur”事件;
 
-　　　　
- 3.分别绑定完事件处理之后，下面针对于表单进行事件的处理。
+
+3.分别绑定完事件处理之后，下面针对于表单进行事件的处理。
 
 
 第三：使用日期选择组件
