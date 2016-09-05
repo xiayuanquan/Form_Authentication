@@ -1,0 +1,22 @@
+/*成功*/
+.success{
+    background:#f5f5f5;
+    font-weight:bold;
+    color:#000000;
+    border:solid 1px #009900; /*边框为绿色*/
+}
+
+/*失败*/
+.failure{
+    background:#f5f5f5;
+    font-weight:bold;
+    color:#000000;
+    border:solid 1px #990000; /*边框为红色*/
+}
+
+/*初始化*/
+.init{
+    background:#f5f5f5;
+    font-weight:bold;
+    color:#000000;
+}

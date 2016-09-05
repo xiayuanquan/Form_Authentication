@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="verfify form!">
+	<meta name="keywords" content="javascript,html,css">
+
+	<link rel="stylesheet" type="text/css" href="css/form.css">
+	<script type="text/javascript" src="js/util.js"> </script>
+	<script type="text/javascript" src="js/emp_add.js"> </script>
+	<script type="text/javascript" src="My97DatePicker/WdatePicker.js"> </script>
+
+	<title>雇员管理程序</title>
+
+</head>
+<body>
+	<form action="" id="empForm">
+		<table cellpadding="1" cellspacing="1" border="1" bgcolor="F2F2F2" width="100%">
+
+			<tr id="empTr">
+				<td colspan="3">增加雇员信息</td>
+			</tr>
+
+			<tr id="empTr">
+				<td width="10%">雇员编号：</td>
+				<td width="60%"><input type="text" name="empNo" id="empNo" class="init"></td>
+				<td width="30%"><span id="empNoSpan"></span></td>
+			</tr>
+
+			<tr id="empTr">
+				<td width="10%">雇员姓名：</td>
+				<td width="60%"><input type="text" name="empName" id="empName" class="init"></td>
+				<td width="30%"><span id="empNameSpan"></span></td>
+			</tr>
+
+			<tr id="empTr">
+				<td width="10%">雇员职位：</td>
+				<td width="60%"><input type="text" name="empJob" id="empJob" class="init"></td>
+				<td width="30%"><span id="empJobSpan"></span></td>
+			</tr>
+
+			<tr id="empTr">
+				<td width="10%">雇员日期：</td>
+				<td width="60%"><input type="text"  onClick="WdatePicker()" name="empDate" id="empDate" class="init" readonly="readonly"></td>  
+				<td width="30%"><span id="empDateSpan"></span></td>
+			</tr>
+
+			<tr id="empTr">
+				<td width="10%">基本工资：</td>
+				<td width="60%"><input type="text" name="empSal" id="empSal" class="init"></td>
+				<td width="30%"><span id="empSalSpan"></span></td>
+			</tr>
+
+			<tr id="empTr">
+				<td width="10%">佣金：</td>
+				<td width="60%"><input type="text" name="empCom" id="empCom" class="init"></td>
+				<td width="30%"><span id="empComSpan"></span></td>
+			</tr>
+
+			<tr id="empTr">
+				<td colspan="3">
+					<input type="submit" value="增加">
+					<input type="reset" value="重置">
+				</td>
+			</tr>
+			
+		</table>
+	</form>
+</body>
+</html>>
