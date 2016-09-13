@@ -13,15 +13,16 @@ JavaScript：综合案例--表单验证
     雇员日期：按照"yyyy-mm-dd"的格式编写，按照正则进行验证；
     基本工资：按照小数编写，小数为最多2位，按照正则进行验证；
     佣金：难找小数编写，小数位数最多2位，按照正则进行验证。
-　　
-### 具体步骤：
+    
+具体步骤：
+--------
 
-第一：定义表单 
+### 第一：定义表单 
 
     1.将form.css文件拷贝到css目录之中；
     2.将emp_add.html页面之中编写表单，以及导入form.css文件的引用；
 
-第二：页面动态效果
+### 第二：页面动态效果
 
   1.为表格增加一些显示的过渡效果
 
@@ -52,25 +53,26 @@ JavaScript：综合案例--表单验证
     例如My97DatePicker日期组件： http://files.cnblogs.com/files/XYQ-208910/My97DatePickerBeta.zip
 
 
-### 效果图如下：
+效果图如下：
+----------
 
-默认时：
+### 默认时：
 
 ![image](https://github.com/xiayuanquan/Form_Authentication/blob/master/screenshots/10.png)
 
-信息全为空时，验证不通过：
+### 信息全为空时，验证不通过：
 
 ![image](https://github.com/xiayuanquan/Form_Authentication/blob/master/screenshots/11.png)
 
-信息任意一个为空时，验证不通过：
+### 信息任意一个为空时，验证不通过：
 
 ![image](https://github.com/xiayuanquan/Form_Authentication/blob/master/screenshots/14.png)
 
-信息都不为空且符合格式时，验证全通过：
+### 信息都不为空且符合格式时，验证全通过：
 
 ![image](https://github.com/xiayuanquan/Form_Authentication/blob/master/screenshots/13.png)
 
-选取日期时：
+### 选取日期时：
 
 ![image](https://github.com/xiayuanquan/Form_Authentication/blob/master/screenshots/12.png)
 
